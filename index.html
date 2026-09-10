@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>个人简历 — 张三 · 前端工程师</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="assets/profile.svg" alt="头像" class="avatar">
+        <div>
+          <h1>张三</h1>
+          <p class="muted">前端工程师 · UI / 交互设计</p>
+        </div>
+      </div>
+      <button class="nav-toggle" aria-expanded="false">☰</button>
+      <nav class="site-nav">
+        <a href="#about">关于</a>
+        <a href="#skills">技能</a>
+        <a href="#experience">经历</a>
+        <a href="#projects">项目</a>
+        <a href="#contact">联系</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="container hero-inner reveal">
+        <div class="hero-content">
+          <h2>你好，我是张三 — 我设计并构建可访问、动效友好的 Web 应用</h2>
+          <p class="lead">专注于前端工程与交互设计，擅长 React、TypeScript 与响应式布局。追求简洁与可用性的平衡。</p>
+          <div class="cta">
+            <a class="btn primary" href="#projects">查看项目</a>
+            <a class="btn outline" href="#contact">联系我</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <img src="assets/project1.svg" alt="示意图" />
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about reveal">
+      <div class="container">
+        <h3>关于我</h3>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>我是一名前端开发者，热衷于构建高性能且体验细腻的用户界面。熟悉从像素到架构的落地实现，关注可访问性与细节。</p>
+            <ul>
+              <li>所在地：上海</li>
+              <li>职位：前端工程师 / 远程可</li>
+              <li>邮箱：zhangsan@example.com</li>
+            </ul>
+          </div>
+          <div class="skills-overview">
+            <div class="skill-pill">HTML & CSS</div>
+            <div class="skill-pill">JavaScript / TypeScript</div>
+            <div class="skill-pill">React / Next.js</div>
+            <div class="skill-pill">设计系统</div>
+            <div class="skill-pill">动画与交互动效</div>
+            <div class="skill-pill">性能优化</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills reveal">
+      <div class="container">
+        <h3>技能特长</h3>
+        <div class="skill-list">
+          <div class="skill-card">
+            <h4>前端工程</h4>
+            <p>React, Redux, TypeScript, Next.js, Vite, Webpack</p>
+          </div>
+          <div class="skill-card">
+            <h4>界面与交互</h4>
+            <p>UI 设计, Figma, 动效, 无障碍 (a11y)</p>
+          </div>
+          <div class="skill-card">
+            <h4>工具与测试</h4>
+            <p>Jest, Playwright, Storybook, ESLint, Prettier</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section experience reveal">
+      <div class="container">
+        <h3>工作经历</h3>
+        <div class="timeline">
+          <article class="timeline-item">
+            <time>2022 — 至今</time>
+            <h4>高级前端工程师 · 某科技公司</h4>
+            <p>负责搭建公司组件库、优化首屏性能、推进工程化与设计系统落地，带领 3 人小组。</p>
+          </article>
+          <article class="timeline-item">
+            <time>2019 — 2022</time>
+            <h4>前端开发工程师 · 互联网公司</h4>
+            <p>参与多个业务线项目，构建可复用 UI 组件、改进移动端体验并完成若干性能优化。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects reveal">
+      <div class="container">
+        <h3>项目展示</h3>
+        <div class="projects-grid">
+          <article class="project-card">
+            <img src="assets/project1.svg" alt="项目示例 1" />
+            <div class="project-info">
+              <h4>设计系统 · 组件库</h4>
+              <p>建立统一的设计系统与组件库，支持主题与按需加载，提高开发效率与一致性。</p>
+              <div class="tags"><span>React</span><span>Storybook</span><span>TypeScript</span></div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="assets/project1.svg" alt="项目示例 2" />
+            <div class="project-info">
+              <h4>电商前端性能优化</h4>
+              <p>通过代码分割、图片优化与缓存策略，将首屏加载时间缩短 40%。</p>
+              <div class="tags"><span>性能</span><span>前端工程</span></div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="assets/project1.svg" alt="项目示例 3" />
+            <div class="project-info">
+              <h4>交互原型与动效</h4>
+              <p>基于 Figma 与 Lottie 实现高保真原型与微交互，提高用户留存。</p>
+              <div class="tags"><span>Figma</span><span>动画</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact reveal">
+      <div class="container">
+        <h3>联系方式</h3>
+        <div class="contact-grid">
+          <div>
+            <p>欢迎通过以下方式联系我：</p>
+            <ul class="contact-list">
+              <li>邮箱：zhangsan@example.com</li>
+              <li>电话：+86 138 0000 0000</li>
+              <li>GitHub：<a href="https://github.com/WXH-ln">WXH-ln</a></li>
+            </ul>
+          </div>
+          <form class="contact-form" onsubmit="return false;">
+            <label>
+              名称
+              <input type="text" placeholder="你的名字">
+            </label>
+            <label>
+              邮箱
+              <input type="email" placeholder="you@example.com">
+            </label>
+            <label>
+              留言
+              <textarea placeholder="写点什么..."></textarea>
+            </label>
+            <div class="form-actions">
+              <button class="btn primary">发送</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 张三。设计与实现：张三。 该页面为示例，可按需替换个人信息与项目内容。</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
